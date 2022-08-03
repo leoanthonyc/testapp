@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+Customer_1:
+  First Name: Johny
+  Last Name: Flow
+
+Customer_2:
+  First Name: Raj
+  Last Name: Jamnis
+
+Customer_3:
+  First Name: Andrew
+  Last Name: Chung
+
+Customer_4:
+  First Name: Mike
+  Last Name: Smith
