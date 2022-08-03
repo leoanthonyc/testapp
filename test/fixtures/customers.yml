@@ -1,17 +1,17 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 johnny:
-  First Name: Johny
-  Last Name: Flow
+  first_name: Johny
+  last_name: Flow
 
 raj:
-  First Name: Raj
-  Last Name: Jamnis
+  first_name: Raj
+  last_name: Jamnis
 
 andrew:
-  First Name: Andrew
-  Last Name: Chung
+  first_name: Andrew
+  last_name: Chung
 
 mike:
-  First Name: Mike
-  Last Name: Smith
+  first_name: Mike
+  last_name: Smith

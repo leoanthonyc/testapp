@@ -1,0 +1,38 @@
+<div>
+  <h1 class="text-3xl">Failed Charges</h1>
+  <ul>
+    <% @failed_charges.each do |charge| %>
+      <li class="bg-[#FF0000]">
+        <%= charge.customer.full_name %>
+        <%= charge.amount %>
+        <%= charge.created_at.strftime("%m/%d/%Y") %>
+      </li>
+    <% end %>
+  </ul>
+
+  <br>
+
+  <h1 class="text-3xl">Disputed Charges</h1>
+  <ul>
+    <% @disputed_charges.each do |charge| %>
+      <li class="bg-[#FF5400]">
+        <%= charge.customer.full_name %>
+        <%= charge.amount %>
+        <%= charge.created_at.strftime("%m/%d/%Y") %>
+      </li>
+    <% end %>
+  </ul>
+
+  <br>
+
+  <h1 class="text-3xl">Successful Charges</h1>
+  <ul>
+    <% @successful_charges.each do |charge| %>
+      <li>
+        <%= charge.customer.full_name %>
+        <%= charge.amount %>
+        <%= charge.created_at.strftime("%m/%d/%Y") %>
+      </li>
+    <% end %>
+  </ul>
+</div>
