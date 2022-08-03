@@ -1,6 +1,6 @@
 <div>
   <h1 class="text-3xl">Failed Charges</h1>
-  <ul>
+  <ul class="failed-charges">
     <% @failed_charges.each do |charge| %>
       <li class="bg-[#FF0000]">
         <%= charge.customer.full_name %>
@@ -13,7 +13,7 @@
   <br>
 
   <h1 class="text-3xl">Disputed Charges</h1>
-  <ul>
+  <ul class="disputed-charges">
     <% @disputed_charges.each do |charge| %>
       <li class="bg-[#FF5400]">
         <%= charge.customer.full_name %>
@@ -26,7 +26,7 @@
   <br>
 
   <h1 class="text-3xl">Successful Charges</h1>
-  <ul>
+  <ul class="successful-charges">
     <% @successful_charges.each do |charge| %>
       <li>
         <%= charge.customer.full_name %>

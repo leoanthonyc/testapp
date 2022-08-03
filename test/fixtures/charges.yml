@@ -144,7 +144,7 @@ Disputed_Charge_3:
   refunded: false
   disputed: true
 
-Disputed_Charge_1:
+Disputed_Charge_4:
   customer: raj
   paid: false
   amount: 1
@@ -152,7 +152,7 @@ Disputed_Charge_1:
   refunded: false
   disputed: true
 
-Disputed_Charge_1:
+Disputed_Charge_5:
   customer: raj
   paid: false
   amount: 1
