@@ -1,0 +1,20 @@
+current directory: /Users/leo/code/example-rails-challenge/source/testapp/vendor/bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+/Users/leo/.rbenv/versions/2.7.2/bin/ruby -I /Users/leo/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20220803-30248-lr332.rb extconf.rb
+checking for u_int8_t... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /Users/leo/code/example-rails-challenge/source/testapp/vendor/bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make "DESTDIR=" clean
+
+current directory: /Users/leo/code/example-rails-challenge/source/testapp/vendor/bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make "DESTDIR="
+compiling sha2init.c
+compiling sha2.c
+linking shared-object digest/sha2.bundle
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/ruby/lib'
+
+current directory: /Users/leo/code/example-rails-challenge/source/testapp/vendor/bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 sha2.bundle ./.gem.20220803-30248-1t1oqix/digest
