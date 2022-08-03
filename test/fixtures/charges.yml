@@ -1,17 +1,161 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  customer: one
+Charge_1:
+  customer: johnny
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_2:
+  customer: johnny
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_3:
+  customer: johnny
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_4:
+  customer: johnny
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_5:
+  customer: johnny
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_6:
+  customer: raj
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_7:
+  customer: raj
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_8:
+  customer: raj
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_9:
+  customer: andrew
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Charge_10:
+  customer: mike
+  paid: true
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Failed_Charge_1:
+  customer: andrew
   paid: false
   amount: 1
   currency: MyString
   refunded: false
   disputed: false
 
-two:
-  customer: two
+Failed_Charge_2:
+  customer: andrew
   paid: false
   amount: 1
   currency: MyString
   refunded: false
   disputed: false
+
+Failed_Charge_3:
+  customer: andrew
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Failed_Charge_4:
+  customer: mike
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Failed_Charge_5:
+  customer: mike
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: false
+
+Disputed_Charge_1:
+  customer: johnny
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: true
+
+Disputed_Charge_2:
+  customer: johnny
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: true
+
+Disputed_Charge_3:
+  customer: johnny
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: true
+
+Disputed_Charge_1:
+  customer: raj
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: true
+
+Disputed_Charge_1:
+  customer: raj
+  paid: false
+  amount: 1
+  currency: MyString
+  refunded: false
+  disputed: true
